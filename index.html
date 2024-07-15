@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Imagens</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="opening-page" id="openingPage">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="text-section">
+                <h1 style="font-family: 'Archivo Black', sans-serif;">Par les images : les informations sur les images de l'exposition.</h1>
+                <p>Along the images: information on the images in the exhibition.</p>
+                <div class="buttons">
+                    <button id="frenchButtonOpening" class="btn">FRANÇAIS</button>
+                    <button id="englishButtonOpening" class="btn">ENGLISH</button>
+                </div>
+            </div>            
+            <div class="image-mosaic">
+                <img src="images/image1.jpg" alt="Image 1">
+                <img src="images/image2.jpg" alt="Image 2">
+                <img src="images/image3.jpg" alt="Image 3">
+                <img src="images/image4.jpg" alt="Image 4">
+                <img src="images/image5.jpg" alt="Image 5">
+                <img src="images/image6.jpg" alt="Image 6">
+            </div>
+        </div>
+    </div>
+    <div class="gallery-page" id="galleryPage" style="display: none;">
+        <div class="gallery">
+            <div class="row">
+                <img src="images/image1.jpg" alt="Image 1" data-text-fr="Texte en français pour l'image 1" data-text-en="Text in English for image 1">
+                <img src="images/image2.jpg" alt="Image 2" data-text-fr="Texte en français pour l'image 2" data-text-en="Text in English for image 2">
+                <img src="images/image3.jpg" alt="Image 3" data-text-fr="Texte en français pour l'image 3" data-text-en="Text in English for image 3">
+                <img src="images/image4.jpg" alt="Image 4" data-text-fr="Texte en français pour l'image 4" data-text-en="Text in English for image 4">
+                <img src="images/image5.jpg" alt="Image 5" data-text-fr="Texte en français pour l'image 5" data-text-en="Text in English for image 5">
+                <img src="images/image6.jpg" alt="Image 6" data-text-fr="Texte en français pour l'image 6" data-text-en="Text in English for image 6">
+                <img src="images/image7.jpg" alt="Image 7" data-text-fr="Texte en français pour l'image 7" data-text-en="Text in English for image 7">
+                <img src="images/image8.jpg" alt="Image 8" data-text-fr="Texte en français pour l'image 8" data-text-en="Text in English for image 8">
+            </div>
+            <div class="row">
+                <img src="images/image9.jpg" alt="Image 9" data-text-fr="Texte en français pour l'image 9" data-text-en="Text in English for image 9">
+                <img src="images/image10.jpg" alt="Image 10" data-text-fr="Texte en français pour l'image 10" data-text-en="Text in English for image 10">
+                <img src="images/image11.jpg" alt="Image 11" data-text-fr="Texte en français pour l'image 11" data-text-en="Text in English for image 11">
+                <img src="images/image12.jpg" alt="Image 12" data-text-fr="Texte en français pour l'image 12" data-text-en="Text in English for image 12">
+                <img src="images/image13.jpg" alt="Image 13" data-text-fr="Texte en français pour l'image 13" data-text-en="Text in English for image 13">
+                <img src="images/image14.jpg" alt="Image 14" data-text-fr="Texte en français pour l'image 14" data-text-en="Text in English for image 14">
+                <img src="images/image15.jpg" alt="Image 15" data-text-fr="Texte en français pour l'image 15" data-text-en="Text in English for image 15">
+            </div>
+        </div>
+        <div class="overlay" id="overlay">
+            <img id="overlayImg" src="" alt="Full Screen Image">
+            <div class="text-box" id="textBox"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
